@@ -20,11 +20,11 @@ export default function HomePage() {
       </section>
       <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-teal-700" />
 
-      {/* TECHNOLOGIES SECTION */}
+      {/* STACK SECTION */}
 
-      <section id="technologies" className="flex scroll-mt-32 flex-col gap-4">
+      <section id="stack" className="flex scroll-mt-32 flex-col gap-4">
         <h1 className="mb-8 rounded-3xl bg-teal-700 p-2 text-center text-5xl font-bold ">
-          Web Development Technologies
+          Tech Stack
         </h1>
         <TechnologyCards />
       </section>
