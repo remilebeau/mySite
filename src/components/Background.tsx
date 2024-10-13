@@ -6,7 +6,7 @@ import osu from "../../public/images/osu.svg";
 export default function Background() {
   return (
     <section className="flex flex-col gap-4">
-      <h1 className="mb-8 rounded-3xl bg-teal-700 p-2 text-center text-5xl font-bold">
+      <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
         Financial and Analytics Background
       </h1>
       <section className="flex flex-col gap-12 sm:flex-row">

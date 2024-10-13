@@ -18,27 +18,27 @@ export default function HomePage() {
         <p className="text-xl">Located in Columbus, Ohio.</p>
         <Background />
       </section>
-      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-teal-700" />
+      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-green-700" />
 
       {/* STACK SECTION */}
 
       <section id="stack" className="flex scroll-mt-32 flex-col gap-4">
-        <h1 className="mb-8 rounded-3xl bg-teal-700 p-2 text-center text-5xl font-bold ">
+        <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold ">
           Tech Stack
         </h1>
         <TechnologyCards />
       </section>
-      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-teal-700" />
+      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-green-700" />
 
       {/* PROJECTS SECTION */}
 
       <section id="projects" className="flex scroll-mt-32 flex-col gap-4">
-        <h1 className="mb-8 rounded-3xl bg-teal-700 p-2 text-center text-5xl font-bold">
+        <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
           Projects
         </h1>
         <ProjectCards />
       </section>
-      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-teal-700" />
+      <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-green-700" />
 
       {/* CONTACT SECTION */}
 
@@ -46,7 +46,7 @@ export default function HomePage() {
         id="contact"
         className="flex min-h-screen scroll-mt-32 flex-col gap-4"
       >
-        <h1 className="mb-8 rounded-3xl bg-teal-700 p-2 text-center text-5xl font-bold">
+        <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
           Contact
         </h1>
         <section className="mb-4 flex flex-col gap-4">
