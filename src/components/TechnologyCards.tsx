@@ -6,7 +6,6 @@ import nodejs from "../../public/images/nodejs.svg";
 import react from "../../public/images/react.svg";
 import nextjs from "../../public/images/nextjs.svg";
 import tailwind from "../../public/images/tailwind.svg";
-import django from "../../public/images/django.svg";
 import fastapi from "../../public/images/fastapi.svg";
 import nestjs from "../../public/images/nestjs.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
