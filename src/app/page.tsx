@@ -1,5 +1,5 @@
 import ButtonWithLink from "@/components/ButtonWithLink";
-import Background from "@/components/Background";
+import FinanceBackground from "@/components/FinanceBackground";
 import ProjectCards from "@/components/ProjectCards";
 import TechnologyCards from "@/components/TechnologyCards";
 
@@ -12,19 +12,18 @@ export default function HomePage() {
           Hello and welcome. I&apos;m Wes.
         </h1>
         <p className="text-xl">
-          A full-stack web developer experienced in finance and business
-          analytics.
+          A full-stack web developer experienced in financial analysis.
         </p>
         <p className="text-xl">Located in Columbus, Ohio.</p>
-        <Background />
+        <FinanceBackground />
       </section>
       <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-green-700" />
 
-      {/* STACK SECTION */}
+      {/* TECHNOLOGIES SECTION */}
 
-      <section id="stack" className="flex scroll-mt-32 flex-col gap-4">
+      <section id="technologies" className="flex scroll-mt-32 flex-col gap-4">
         <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold ">
-          Tech Stack
+          Technologies
         </h1>
         <TechnologyCards />
       </section>
@@ -51,8 +50,7 @@ export default function HomePage() {
         </h1>
         <section className="mb-4 flex flex-col gap-4">
           <p className="text-2xl">
-            I am open to discussing job opportunities in IT, Finance, or
-            Business Analytics.
+            I am open to discussing job opportunities in IT or Finance.
           </p>
         </section>
         {/* flexbox for GitHub, Email, and Resume buttons */}

@@ -3,6 +3,7 @@ import js from "../../public/images/js.svg";
 import ts from "../../public/images/ts.svg";
 import python from "../../public/images/python.svg";
 import nodejs from "../../public/images/nodejs.svg";
+import nestjs from "../../public/images/nestjs.svg";
 import react from "../../public/images/react.svg";
 import nextjs from "../../public/images/nextjs.svg";
 import tailwind from "../../public/images/tailwind.svg";
@@ -10,7 +11,6 @@ import fastapi from "../../public/images/fastapi.svg";
 import django from "../../public/images/django.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
-import git from "../../public/images/git.svg";
 import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 
 export default function TechnologyCards() {
@@ -47,6 +47,10 @@ export default function TechnologyCards() {
       src: nodejs,
     },
     {
+      title: "NestJS",
+      src: nestjs,
+    },
+    {
       title: "Django",
       src: django,
     },
@@ -62,10 +66,6 @@ export default function TechnologyCards() {
     {
       title: "Docker",
       src: docker,
-    },
-    {
-      title: "Git",
-      src: git,
     },
   ];
 

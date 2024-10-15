@@ -3,11 +3,11 @@ import excel from "../../public/images/excel.svg";
 import python from "../../public/images/python.svg";
 import osu from "../../public/images/osu.svg";
 
-export default function Background() {
+export default function FinanceBackground() {
   return (
     <section className="flex flex-col gap-4">
       <h1 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
-        Financial and Analytics Background
+        Financial Analysis Background
       </h1>
       <section className="flex flex-col gap-12 sm:flex-row">
         <Image
