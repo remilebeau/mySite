@@ -1,3 +1,4 @@
+import BusinessAnalyticsBackground from "@/components/BusinessAnalyticsBackground";
 import ButtonWithLink from "@/components/ButtonWithLink";
 import FinanceBackground from "@/components/FinanceBackground";
 import ProjectCards from "@/components/ProjectCards";
@@ -5,16 +6,18 @@ import TechnologyCards from "@/components/TechnologyCards";
 
 export default function HomePage() {
   return (
-    <main className="mx-auto mt-6 flex max-w-4xl flex-col gap-4 p-4 text-center">
+    <main className="mx-auto mt-6 flex max-w-4xl flex-col gap-4 p-4 text-center font-bold">
       {/* HERO AND BACKGROUND SECTION */}
       <section id="hero" className="flex scroll-mt-32 flex-col gap-4">
         <h1 className="text-center text-4xl font-bold">
           Hello and welcome. I&apos;m Wes.
         </h1>
         <p className="text-xl">
-          A full-stack web developer experienced in financial analysis.
+          A full-stack web developer experienced in business analytics and
+          finance.
         </p>
         <p className="text-xl">Located in Columbus, Ohio.</p>
+        <BusinessAnalyticsBackground />
         <FinanceBackground />
       </section>
       <hr className="mx-auto my-8 w-1/2 rounded-xl border-4 border-green-700" />
