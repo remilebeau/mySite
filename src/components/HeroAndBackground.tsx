@@ -1,5 +1,5 @@
-import BusinessAnalyticsBackground from "./BusinessAnalyticsBackground";
-import FinanceBackground from "./FinanceBackground";
+import ManagementScience from "./ManagementScience";
+import Finance from "./Finance";
 
 export default function HeroAndBackground() {
   return (
@@ -12,8 +12,8 @@ export default function HeroAndBackground() {
         finance.
       </p>
       <p className="text-xl">Located in Columbus, Ohio.</p>
-      <BusinessAnalyticsBackground />
-      <FinanceBackground />
+      <ManagementScience />
+      <Finance />
     </section>
   );
 }

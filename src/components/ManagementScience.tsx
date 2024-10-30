@@ -2,7 +2,7 @@ import Image from "next/image";
 import excel from "../../public/images/excel.svg";
 import python from "../../public/images/python.svg";
 
-export default function BusinessAnalyticsBackground() {
+export default function ManagementScience() {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">

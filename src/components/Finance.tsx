@@ -1,7 +1,7 @@
 import Image from "next/image";
 import osu from "../../public/images/osu.svg";
 
-export default function FinanceBackground() {
+export default function Finance() {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
