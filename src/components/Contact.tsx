@@ -11,8 +11,8 @@ export default function Contact() {
       </h1>
       <section className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
-          I am open to discussing job opportunities in Web Development, Business
-          Analytics, Finance, or IT.
+          I am open to discussing job opportunities in web development,
+          management science, or finance.
         </p>
       </section>
       {/* flexbox for GitHub, Email, and Resume buttons */}

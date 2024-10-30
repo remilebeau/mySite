@@ -8,7 +8,7 @@ export default function HeroAndBackground() {
         Hello and welcome. I&apos;m Wes.
       </h1>
       <p className="text-xl">
-        A full-stack web developer experienced in business analytics and
+        A full-stack web developer experienced in management science and
         finance.
       </p>
       <p className="text-xl">Located in Columbus, Ohio.</p>
