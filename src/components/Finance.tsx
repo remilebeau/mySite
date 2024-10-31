@@ -17,10 +17,10 @@ export default function Finance() {
       />
       <div className="flex flex-col">
         <p className="text-2xl font-bold text-red-600">
-          Bachelor of Science, Business Administration: Finance
+          Business Administration: Finance
         </p>
         <p className="text-2xl font-bold italic text-gray-600">
-          Summa Cum Laude, The Ohio State University
+          BS, The Ohio State University, Summa Cum Laude
         </p>
       </div>
 
