@@ -9,7 +9,7 @@ export default function ManagementScience() {
         Management Science
       </h2>
 
-      <div className="flex flex-col gap-8 sm:flex-row">
+      <div className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
         <Image
           className="mx-auto"
           src={excel}
