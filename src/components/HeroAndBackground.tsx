@@ -1,5 +1,7 @@
 import ManagementScience from "./ManagementScience";
 import Finance from "./Finance";
+import oh from "../../public/images/oh.svg";
+import Image from "next/image";
 
 export default function HeroAndBackground() {
   return (
@@ -11,7 +13,17 @@ export default function HeroAndBackground() {
         A full-stack web developer experienced in management science and
         finance.
       </p>
-      <p className="text-xl">Located in Columbus, Ohio.</p>
+      <div className="mx-auto flex flex-col gap-4 sm:flex-row sm:gap-8">
+        <Image
+          className="mx-auto"
+          src={oh}
+          alt="Ohio"
+          width={200}
+          height={200}
+        />
+        <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
+      </div>
+
       <ManagementScience />
       <Finance />
     </section>
