@@ -21,7 +21,7 @@ export default function Contact() {
           href="mailto:remilebeau90@gmail.com"
           text="Send Me an Email"
         />
-        <ButtonWithLink href="/wes_s_resume.pdf" text="Download My Resume" />
+        <ButtonWithLink href="/wes-s-resume.pdf" text="Download My Resume" />
         <ButtonWithLink
           href="https://github.com/remilebeau"
           text="Visit My GitHub"
