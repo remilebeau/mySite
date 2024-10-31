@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 
-const roboto = Roboto({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`bg-black text-white ${roboto.className}`}>
+      <body className={`bg-black text-white ${inter.className}`}>
         <Header />
         {children}
       </body>
