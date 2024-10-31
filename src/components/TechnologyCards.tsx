@@ -1,8 +1,11 @@
 import Image from "next/image";
+import html from "../../public/images/html.svg";
+import css from "../../public/images/css.svg";
 import js from "../../public/images/js.svg";
 import ts from "../../public/images/ts.svg";
 import python from "../../public/images/python.svg";
 import nodejs from "../../public/images/nodejs.svg";
+import ex from "../../public/images/ex.svg";
 import nestjs from "../../public/images/nestjs.svg";
 import react from "../../public/images/react.svg";
 import nextjs from "../../public/images/nextjs.svg";
@@ -15,6 +18,14 @@ import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 
 export default function TechnologyCards() {
   const cards: TechnologyCard[] = [
+    {
+      title: "HTML",
+      src: html,
+    },
+    {
+      title: "CSS",
+      src: css,
+    },
     {
       title: "JavaScript",
       src: js,
@@ -45,6 +56,11 @@ export default function TechnologyCards() {
     {
       title: "Node.js",
       src: nodejs,
+    },
+    {
+      title: "Express",
+      src: ex,
+      styling: "invert",
     },
     {
       title: "NestJS",
