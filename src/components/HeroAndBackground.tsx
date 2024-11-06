@@ -13,17 +13,8 @@ export default function HeroAndBackground() {
         A full-stack web developer experienced in management science and
         finance.
       </p>
-      <div className="mx-auto flex flex-col gap-4 sm:flex-row sm:gap-8">
-        <Image
-          className="mx-auto"
-          src={oh}
-          alt="Ohio"
-          width={200}
-          height={200}
-        />
-        <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
-      </div>
-
+      <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
+      <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
       <ManagementScience />
       <Finance />
     </section>
