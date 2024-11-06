@@ -19,7 +19,7 @@ export default function Finance() {
         <p className="text-2xl font-bold text-red-600">
           Business Administration: Finance
         </p>
-        <p className="text-2xl font-bold italic text-gray-600">
+        <p className="text-2xl font-bold italic text-gray-400">
           BS, The Ohio State University, Summa Cum Laude
         </p>
       </div>
@@ -31,7 +31,7 @@ export default function Finance() {
           <li>Entrepreneurial Finance</li>
           <li>Financial and Managerial Accounting</li>
         </section>
-        <section className="flex flex-col text-gray-600">
+        <section className="flex flex-col text-gray-400">
           <li>Marketing Principles and Strategy</li>
           <li>Organizational Behavior</li>
           <li>Risk Management</li>
