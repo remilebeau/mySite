@@ -9,7 +9,7 @@ export default function ManagementScience() {
         Management Science
       </h2>
 
-      <div className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
+      <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
         <Image
           className="mx-auto"
           src={excel}
@@ -24,7 +24,7 @@ export default function ManagementScience() {
           width={200}
           height={200}
         />
-      </div>
+      </section>
 
       <ul className="flex flex-col justify-evenly text-center text-xl sm:flex-row sm:text-left">
         <section className="flex flex-col">
