@@ -24,15 +24,6 @@ export default function ProjectCards() {
       apiURL: "https://simulation-api-rsaw.onrender.com/docs",
     },
     {
-      title: "CityData",
-      description:
-        "Aggregate common stats from City-Data for any U.S. city. Built with Next.js and FastAPI.",
-      image: cityData,
-      live: "https://remilebeau-citydata.vercel.app/",
-      sourceCode: "https://github.com/remilebeau/citydata",
-      apiURL: "https://citydata-api.onrender.com/docs",
-    },
-    {
       title: "TechNotes",
       description:
         "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'. Built with MongoDB, Express.js, React, and Node.js.",
@@ -40,6 +31,15 @@ export default function ProjectCards() {
       live: "https://technotes-op6s.onrender.com",
       sourceCode: "https://github.com/remilebeau/techNotes",
       apiURL: "https://github.com/remilebeau/techNotes-api",
+    },
+    {
+      title: "CityData",
+      description:
+        "Aggregate common stats from City-Data for any U.S. city. Built with Next.js and FastAPI.",
+      image: cityData,
+      live: "https://remilebeau-citydata.vercel.app/",
+      sourceCode: "https://github.com/remilebeau/citydata",
+      apiURL: "https://citydata-api.onrender.com/docs",
     },
   ];
   const renderedProjects = projects.map((project) => (
