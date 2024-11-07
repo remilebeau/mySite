@@ -1,4 +1,8 @@
 import Image from "next/image";
+import jupyter from "../../public/images/jupyter.svg";
+import scikitlearn from "../../public/images/scikitlearn.svg";
+import pandas from "../../public/images/pandas.svg";
+import numpy from "../../public/images/numpy.svg";
 import excel from "../../public/images/excel.svg";
 import python from "../../public/images/python.svg";
 
@@ -10,6 +14,34 @@ export default function DataScience() {
       </h2>
 
       <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
+        <Image
+          className="mx-auto invert"
+          src={scikitlearn}
+          alt="Scikitlearn"
+          width={200}
+          height={200}
+        />
+        <Image
+          className="mx-auto invert"
+          src={pandas}
+          alt="Pandas"
+          width={200}
+          height={200}
+        />
+        <Image
+          className="mx-auto"
+          src={numpy}
+          alt="Numpy"
+          width={200}
+          height={200}
+        />
+        <Image
+          className="mx-auto invert"
+          src={jupyter}
+          alt="Jupyter"
+          width={200}
+          height={200}
+        />
         <Image
           className="mx-auto"
           src={excel}
