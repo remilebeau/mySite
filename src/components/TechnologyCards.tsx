@@ -1,9 +1,4 @@
 import Image from "next/image";
-import html from "../../public/images/html.svg";
-import css from "../../public/images/css.svg";
-import js from "../../public/images/js.svg";
-import ts from "../../public/images/ts.svg";
-import python from "../../public/images/python.svg";
 import nodejs from "../../public/images/nodejs.svg";
 import ex from "../../public/images/ex.svg";
 import nestjs from "../../public/images/nestjs.svg";
@@ -12,34 +7,13 @@ import nextjs from "../../public/images/nextjs.svg";
 import tailwind from "../../public/images/tailwind.svg";
 import fastapi from "../../public/images/fastapi.svg";
 import django from "../../public/images/django.svg";
+import mongodb from "../../public/images/mongodb.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
-import { Card, CardFooter, CardHeader } from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 
 export default function TechnologyCards() {
   const cards: TechnologyCard[] = [
-    {
-      title: "HTML",
-      src: html,
-    },
-    {
-      title: "CSS",
-      src: css,
-    },
-    {
-      title: "JavaScript",
-      src: js,
-      styling: "rounded-3xl",
-    },
-    {
-      title: "TypeScript",
-      src: ts,
-      styling: "rounded-3xl",
-    },
-    {
-      title: "Python",
-      src: python,
-    },
     {
       title: "React",
       src: react,
@@ -76,7 +50,11 @@ export default function TechnologyCards() {
       styling: "invert",
     },
     {
-      title: "Linux",
+      title: "MongoDB",
+      src: mongodb,
+    },
+    {
+      title: "Ubuntu",
       src: ubuntu,
     },
     {
@@ -99,7 +77,7 @@ export default function TechnologyCards() {
           className={card.styling}
         />
       </CardHeader>
-      <CardFooter className="text-2xl font-bold">{card.title}</CardFooter>
+      {/* <CardFooter className="text-2xl font-bold">{card.title}</CardFooter> */}
     </Card>
   ));
 
