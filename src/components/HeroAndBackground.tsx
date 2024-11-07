@@ -10,8 +10,7 @@ export default function HeroAndBackground() {
         Hello and welcome. I&apos;m Wes.
       </h1>
       <p className="text-xl">
-        A full-stack web developer experienced in management science and
-        finance.
+        A full-stack web developer knowledgeable in data science and finance.
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
