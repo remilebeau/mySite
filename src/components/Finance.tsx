@@ -15,24 +15,26 @@ export default function Finance() {
         width={200}
         height={200}
       />
-      <div className="flex flex-col">
-        <p className="text-2xl font-bold text-red-600">
-          Business Administration: Finance
+      <section className="flex flex-col">
+        <p className="text-xl font-bold text-red-600 sm:text-2xl">
+          BSBA: Finance Specialization
         </p>
-        <p className="text-2xl font-bold italic text-gray-400">
-          BS, The Ohio State University, Summa Cum Laude
+        <p className="text-xl font-bold text-red-600 sm:text-2xl">
+          Summa Cum Laude
         </p>
-      </div>
+        <p className="text-xl font-bold italic text-gray-400 sm:text-2xl">
+          The Ohio State University
+        </p>
+      </section>
 
       <ul className="flex flex-col justify-evenly text-center text-xl sm:flex-row sm:text-left">
         <section className="flex flex-col text-red-600">
           <li>Capital Budgeting</li>
-          <li>Corporate Finance</li>
-          <li>Entrepreneurial Finance</li>
           <li>Financial and Managerial Accounting</li>
+          <li>Marketing Principles and Strategy</li>
+          <li>Management Science</li>
         </section>
         <section className="flex flex-col text-gray-400">
-          <li>Marketing Principles and Strategy</li>
           <li>Organizational Behavior</li>
           <li>Risk Management</li>
           <li>Statistical Analysis</li>
