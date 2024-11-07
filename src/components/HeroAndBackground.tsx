@@ -1,4 +1,4 @@
-import ManagementScience from "./ManagementScience";
+import DataScience from "./DataScience";
 import Finance from "./Finance";
 import oh from "../../public/images/oh.svg";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export default function HeroAndBackground() {
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
-      <ManagementScience />
+      <DataScience />
       <Finance />
     </section>
   );

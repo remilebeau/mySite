@@ -2,11 +2,11 @@ import Image from "next/image";
 import excel from "../../public/images/excel.svg";
 import python from "../../public/images/python.svg";
 
-export default function ManagementScience() {
+export default function DataScience() {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
-        Management Science
+        Data Science
       </h2>
 
       <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
