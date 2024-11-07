@@ -22,16 +22,16 @@ export default function Finance() {
         <p className="text-xl font-bold text-red-600 sm:text-2xl">
           Summa Cum Laude
         </p>
-        <p className="text-xl font-bold italic text-gray-400 sm:text-2xl">
+        <p className="text-xl font-bold text-red-600 sm:text-2xl">
           The Ohio State University
         </p>
       </section>
 
       <ul className="flex flex-col justify-evenly text-center text-xl sm:flex-row sm:text-left">
-        <section className="flex flex-col text-red-600">
+        <section className="flex flex-col text-gray-400">
           <li>Capital Budgeting</li>
-          <li>Financial and Managerial Accounting</li>
-          <li>Marketing Principles and Strategy</li>
+          <li>Financial & Managerial Accounting</li>
+          <li>Marketing Principles & Strategy</li>
           <li>Management Science</li>
         </section>
         <section className="flex flex-col text-gray-400">
