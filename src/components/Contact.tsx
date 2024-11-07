@@ -11,12 +11,12 @@ export default function Contact() {
       </h1>
       <section className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
-          I am open to discussing job opportunities in web development,
-          management science, or finance.
+          I am open to discussing job opportunities in web development, data
+          science, or finance.
         </p>
       </section>
       {/* flexbox for GitHub, Email, and Resume buttons */}
-      <section className="mx-auto flex w-1/2 flex-col gap-8">
+      <section className="mx-auto flex flex-col gap-8">
         <ButtonWithLink
           href="mailto:remilebeau90@gmail.com"
           text="Send Me an Email"
