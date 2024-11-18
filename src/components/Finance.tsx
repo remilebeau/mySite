@@ -29,12 +29,15 @@ export default function Finance() {
 
       <ul className="flex flex-col justify-evenly text-center text-xl sm:flex-row sm:text-left">
         <section className="flex flex-col text-gray-400">
+          <li>Business Analytics</li>
           <li>Capital Budgeting</li>
+          <li>Corporate Finance</li>
+          <li>Entrepeneurial Finance</li>
           <li>Financial & Managerial Accounting</li>
-          <li>Marketing Principles & Strategy</li>
-          <li>Management Science</li>
         </section>
         <section className="flex flex-col text-gray-400">
+          <li>Investment Strategies & Philosophies</li>
+          <li>Marketing Principles & Strategy</li>
           <li>Organizational Behavior</li>
           <li>Risk Management</li>
           <li>Statistical Analysis</li>
