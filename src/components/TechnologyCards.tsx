@@ -4,16 +4,13 @@ import css from "../../public/images/css.svg";
 import js from "../../public/images/js.svg";
 import ts from "../../public/images/ts.svg";
 import python from "../../public/images/python.svg";
-import sql from "../../public/images/sql.svg";
 import nodejs from "../../public/images/nodejs.svg";
 import ex from "../../public/images/ex.svg";
-import nestjs from "../../public/images/nestjs.svg";
 import react from "../../public/images/react.svg";
 import nextjs from "../../public/images/nextjs.svg";
 import tailwind from "../../public/images/tailwind.svg";
 import fastapi from "../../public/images/fastapi.svg";
 import django from "../../public/images/django.svg";
-import mongodb from "../../public/images/mongodb.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
 import { Card, CardFooter, CardHeader } from "@/components/ui/card";
@@ -61,10 +58,6 @@ export default function TechnologyCards() {
       styling: "invert",
     },
     {
-      title: "NestJS",
-      src: nestjs,
-    },
-    {
       title: "Python",
       src: python,
     },
@@ -76,14 +69,6 @@ export default function TechnologyCards() {
       title: "FastAPI",
       src: fastapi,
       styling: "invert",
-    },
-    {
-      title: "MongoDB",
-      src: mongodb,
-    },
-    {
-      title: "SQL",
-      src: sql,
     },
     {
       title: "Linux",
