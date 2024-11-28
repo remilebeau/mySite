@@ -9,7 +9,7 @@ import git from "../../public/images/git.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
 
-import { Card, CardFooter, CardHeader } from "@/components/ui/card";
+import { Card, CardHeader, CardFooter } from "@/components/ui/card";
 
 export default function TechnologyCards() {
   const cards: TechnologyCard[] = [
@@ -31,7 +31,7 @@ export default function TechnologyCards() {
       src: nodejs,
     },
     {
-      title: "Postgresql",
+      title: "PostgreSQL",
       src: postgresql,
     },
     {
