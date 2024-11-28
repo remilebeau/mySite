@@ -16,8 +16,7 @@ export default function ProjectCards() {
   const projects: ProjectCard[] = [
     {
       title: "Monte Carlo Simulation",
-      description:
-        "Monte Carlo simulation for production planning. Built with Next.js and FastAPI.",
+      description: "Monte Carlo simulation for production planning.",
       image: simulation,
       live: "https://remilebeau-simulation.vercel.app/",
       sourceCode: "https://github.com/remilebeau/simulation",
@@ -26,7 +25,7 @@ export default function ProjectCards() {
     {
       title: "TechNotes",
       description:
-        "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'. Built with MongoDB, Express.js, React, and Node.js.",
+        "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'.",
       image: techNotes,
       live: "https://technotes-op6s.onrender.com",
       sourceCode: "https://github.com/remilebeau/techNotes",
@@ -35,7 +34,7 @@ export default function ProjectCards() {
     {
       title: "CityData",
       description:
-        "Aggregate common stats from City-Data for any U.S. city. Built with Next.js and FastAPI.",
+        "Fetch a subset of stats about most U.S. cities from City-Data.",
       image: cityData,
       live: "https://remilebeau-citydata.vercel.app/",
       sourceCode: "https://github.com/remilebeau/citydata",
