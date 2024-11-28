@@ -1,10 +1,12 @@
 import Image from "next/image";
-import jupyter from "../../public/images/jupyter.svg";
-import scikitlearn from "../../public/images/scikitlearn.svg";
-import pandas from "../../public/images/pandas.svg";
-import numpy from "../../public/images/numpy.svg";
-import excel from "../../public/images/excel.svg";
-import python from "../../public/images/python.svg";
+// import jupyter from "../../public/images/jupyter.svg";
+// import scikitlearn from "../../public/images/scikitlearn.svg";
+// import pandas from "../../public/images/pandas.svg";
+// import numpy from "../../public/images/numpy.svg";
+// import excel from "../../public/images/excel.svg";
+// import python from "../../public/images/python.svg";
+import miamiFull from "../../public/images/miamiFull.svg";
+import mitFull from "../../public/images/mitFull.svg";
 
 export default function DataScience() {
   return (
@@ -15,46 +17,18 @@ export default function DataScience() {
 
       <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
         <Image
-          className="mx-auto invert"
-          src={scikitlearn}
-          alt="Scikitlearn"
-          width={200}
-          height={200}
-        />
-        <Image
-          className="mx-auto invert"
-          src={pandas}
-          alt="Pandas"
-          width={200}
-          height={200}
+          className="mx-auto"
+          src={miamiFull}
+          alt="MiamifulmiamiFull"
+          width={250}
+          height={250}
         />
         <Image
           className="mx-auto"
-          src={numpy}
-          alt="Numpy"
-          width={200}
-          height={200}
-        />
-        <Image
-          className="mx-auto invert"
-          src={jupyter}
-          alt="Jupyter"
-          width={200}
-          height={200}
-        />
-        <Image
-          className="mx-auto"
-          src={excel}
-          alt="Microsoft Excel"
-          width={200}
-          height={200}
-        />
-        <Image
-          className="mx-auto"
-          src={python}
-          alt="Python"
-          width={200}
-          height={200}
+          src={mitFull}
+          alt="mitFull"
+          width={250}
+          height={250}
         />
       </section>
 
