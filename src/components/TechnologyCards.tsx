@@ -9,7 +9,7 @@ import git from "../../public/images/git.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
 
-import { Card, CardHeader, CardFooter } from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 
 export default function TechnologyCards() {
   const cards: TechnologyCard[] = [
@@ -66,7 +66,6 @@ export default function TechnologyCards() {
           className={card.styling}
         />
       </CardHeader>
-      <CardFooter className="text-2xl font-bold">{card.title}</CardFooter>
     </Card>
   ));
 
