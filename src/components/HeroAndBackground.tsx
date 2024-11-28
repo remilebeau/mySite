@@ -1,4 +1,4 @@
-import DataScience from "./DataScience";
+import ManagementScience from "./ManagementScience";
 import Finance from "./Finance";
 import oh from "../../public/images/oh.svg";
 import Image from "next/image";
@@ -10,12 +10,13 @@ export default function HeroAndBackground() {
         Hello and welcome. I&apos;m Wes.
       </h1>
       <p className="text-xl">
-        A full-stack web developer knowledgeable in data science and finance.
+        A full-stack web developer with a background in finance and management
+        science.
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
-      <DataScience />
       <Finance />
+      <ManagementScience />
     </section>
   );
 }
