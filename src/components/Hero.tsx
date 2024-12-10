@@ -1,9 +1,7 @@
-import ManagementScience from "./ManagementScience";
-import Finance from "./Finance";
 import oh from "../../public/images/oh.svg";
 import Image from "next/image";
 
-export default function HeroAndBackground() {
+export default function Hero() {
   return (
     <section id="hero" className="flex scroll-mt-32 flex-col gap-4">
       <h1 className="text-center text-4xl font-bold">
@@ -15,8 +13,6 @@ export default function HeroAndBackground() {
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
-      <Finance />
-      <ManagementScience />
     </section>
   );
 }

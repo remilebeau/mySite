@@ -16,7 +16,7 @@ export default function ProjectCards() {
   const projects: ProjectCard[] = [
     {
       title: "Monte Carlo Simulation",
-      description: "Monte Carlo simulation for production planning.",
+      description: "Monte Carlo simulation for production planning",
       image: simulation,
       live: "https://remilebeau-simulation.vercel.app/",
       sourceCode: "https://github.com/remilebeau/simulation",
@@ -25,7 +25,7 @@ export default function ProjectCards() {
     {
       title: "TechNotes",
       description:
-        "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'.",
+        "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'",
       image: techNotes,
       live: "https://technotes-op6s.onrender.com",
       sourceCode: "https://github.com/remilebeau/techNotes",
