@@ -5,7 +5,7 @@ export default function Finance() {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
-        Finance Background
+        Finance
       </h2>
 
       <Image
@@ -29,11 +29,11 @@ export default function Finance() {
 
       <ul className="flex flex-col justify-evenly text-center text-xl sm:flex-row sm:text-left">
         <section className="flex flex-col text-gray-400">
+          <li>Accounting</li>
           <li>Business Analytics</li>
           <li>Capital Budgeting</li>
           <li>Corporate Finance</li>
           <li>Entrepeneurial Finance</li>
-          <li>Financial & Managerial Accounting</li>
         </section>
         <section className="flex flex-col text-gray-400">
           <li>Investment Strategies & Philosophies</li>

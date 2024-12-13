@@ -6,7 +6,7 @@ export default function ManagementScience() {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
-        Management Science Background
+        Management Science
       </h2>
 
       <section className="mb-8 flex flex-col items-center gap-12 sm:flex-row sm:justify-evenly">
