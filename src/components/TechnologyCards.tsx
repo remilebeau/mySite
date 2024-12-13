@@ -3,8 +3,9 @@ import react from "../../public/images/react.svg";
 import nextjs from "../../public/images/nextjs.svg";
 import tailwind from "../../public/images/tailwind.svg";
 import nodejs from "../../public/images/nodejs.svg";
-import postgresql from "../../public/images/postgresql.svg";
-import mongodb from "../../public/images/mongodb.svg";
+import python from "../../public/images/python.svg";
+import django from "../../public/images/django.svg";
+import fastapi from "../../public/images/fastapi.svg";
 import git from "../../public/images/git.svg";
 import ubuntu from "../../public/images/ubuntu.svg";
 import docker from "../../public/images/docker.svg";
@@ -31,12 +32,17 @@ export default function TechnologyCards() {
       src: nodejs,
     },
     {
-      title: "PostgreSQL",
-      src: postgresql,
+      title: "Python",
+      src: python,
     },
     {
-      title: "MongoDB",
-      src: mongodb,
+      title: "Django",
+      src: django,
+    },
+    {
+      title: "Fastapi",
+      src: fastapi,
+      styling: "invert",
     },
     {
       title: "Git",
