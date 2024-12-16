@@ -3,7 +3,7 @@ import osu from "../../public/images/osu.svg";
 
 export default function Finance() {
   return (
-    <article id="background" className="flex scroll-mt-32 flex-col gap-4">
+    <article id="finance" className="flex scroll-mt-32 flex-col gap-4">
       <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
         Finance
       </h2>

@@ -8,7 +8,7 @@ export default function Header() {
     { name: "Wes S", href: "#hero" },
     { name: "Projects", href: "#projects" },
     { name: "Technologies", href: "#technologies" },
-    { name: "Background", href: "#background" },
+    { name: "Finance", href: "#finance" },
     { name: "Contact", href: "#contact" },
   ];
 
