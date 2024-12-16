@@ -3,16 +3,16 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section id="hero" className="flex scroll-mt-32 flex-col gap-4">
+    <article id="hero" className="flex scroll-mt-32 flex-col gap-4">
       <h1 className="text-center text-4xl font-bold">
         Hello and welcome. I&apos;m Wes.
       </h1>
       <p className="text-xl">
-        A full-stack web developer with a background in finance and management
-        science.
+        A full-stack web developer with formal training and experience in
+        finance.
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
-    </section>
+    </article>
   );
 }

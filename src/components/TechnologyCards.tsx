@@ -76,8 +76,8 @@ export default function TechnologyCards() {
   ));
 
   return (
-    <section className="flex flex-col gap-4 sm:grid sm:grid-cols-3">
+    <article className="flex flex-col gap-4 sm:grid sm:grid-cols-3">
       {renderedCards}
-    </section>
+    </article>
   );
 }

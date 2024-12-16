@@ -2,7 +2,7 @@ import ButtonWithLink from "./ButtonWithLink";
 
 export default function Contact() {
   return (
-    <section
+    <article
       id="contact"
       className="flex min-h-screen scroll-mt-32 flex-col gap-4"
     >
@@ -28,6 +28,6 @@ export default function Contact() {
         />
       </section>
       {/* end flexbox */}
-    </section>
+    </article>
   );
 }
