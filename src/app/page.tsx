@@ -3,7 +3,7 @@ import Projects from "@/components/Projects";
 import Technologies from "@/components/Technologies";
 import Contact from "@/components/Contact";
 import HR from "@/components/HR";
-import Background from "@/components/Background";
+import Finance from "@/components/Finance";
 
 export default function HomePage() {
   return (
@@ -17,7 +17,7 @@ export default function HomePage() {
       <Technologies />
       <HR />
 
-      <Background />
+      <Finance />
       <HR />
 
       <Contact />
