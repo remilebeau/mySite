@@ -8,8 +8,7 @@ export default function Hero() {
         Hello and welcome. I&apos;m Wes.
       </h1>
       <p className="text-xl">
-        A full-stack web developer with formal training and experience in
-        finance.
+        A full-stack web developer with a financial background.
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
