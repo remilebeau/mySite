@@ -49,14 +49,14 @@ export default function ProjectCards() {
           {project.description}
         </CardDescription>
       </CardHeader>
-      <CardFooter>
-        <Image className="rounded-xl" src={project.image} alt={project.title} />
-      </CardFooter>
       <CardContent className="flex flex-col justify-evenly gap-4 sm:flex-row">
         <ButtonWithLink href={project.live} text="Live Demo" />
         <ButtonWithLink href={project.sourceCode} text="Source Code" />
         <ButtonWithLink href={project.apiURL} text="API Docs" />
       </CardContent>
+      <CardFooter>
+        <Image className="rounded-xl" src={project.image} alt={project.title} />
+      </CardFooter>
     </Card>
   ));
   return <article className="flex flex-col gap-16">{renderedProjects}</article>;

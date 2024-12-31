@@ -15,7 +15,7 @@ export default function Contact() {
           finance.
         </p>
       </section>
-      <section className="mx-auto flex flex-col gap-8">
+      <section className=" flex flex-col gap-8">
         <ButtonWithLink
           href="mailto:remilebeau90@gmail.com"
           text="Send Me an Email"
