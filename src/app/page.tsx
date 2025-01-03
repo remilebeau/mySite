@@ -11,13 +11,13 @@ export default function HomePage() {
       <Hero />
       <HR />
 
+      <Finance />
+      <HR />
+
       <Projects />
       <HR />
 
       <Technologies />
-      <HR />
-
-      <Finance />
       <HR />
 
       <Contact />
