@@ -3,6 +3,14 @@ import techNotes from "../../public/images/techNotes.png";
 import simulation from "../../public/images/simulation.png";
 import cityData from "../../public/images/cityData.png";
 import ButtonWithLink from "./ButtonWithLink";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function ProjectCards() {
   const projects = [
@@ -34,23 +42,23 @@ export default function ProjectCards() {
     },
   ];
   const renderedProjects = projects.map((project) => (
-    <section
+    <Card
       key={project.title}
       className="flex flex-col gap-4 rounded-xl border border-white"
     >
-      <header className="mx-auto flex w-full flex-col gap-4 rounded-t-xl bg-green-700 p-4 text-center">
-        <p className="text-3xl">{project.title}</p>
-        <p className="text-2xl">{project.description}</p>
-      </header>
-      <main className="flex flex-col justify-evenly gap-4 sm:flex-row">
+      <CardHeader>
+        <CardTitle>{project.title}</CardTitle>
+        <CardDescription>{project.description}</CardDescription>
+      </CardHeader>
+      <CardContent className="flex flex-col gap-2 sm:flex-row">
         <ButtonWithLink href={project.live} text="Live Demo" />
         <ButtonWithLink href={project.sourceCode} text="Source Code" />
         <ButtonWithLink href={project.apiURL} text="API Docs" />
-      </main>
-      <footer>
+      </CardContent>
+      <CardFooter>
         <Image className="rounded-xl" src={project.image} alt={project.title} />
-      </footer>
-    </section>
+      </CardFooter>
+    </Card>
   ));
   return <article className="flex flex-col gap-16">{renderedProjects}</article>;
 }
