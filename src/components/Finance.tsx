@@ -1,12 +1,11 @@
 import Image from "next/image";
 import osu from "../../public/images/osu.svg";
+import H2 from "@/components/H2";
 
 export default function Finance() {
   return (
     <article id="finance" className="flex scroll-mt-32 flex-col gap-4">
-      <h2 className="mb-8 rounded-3xl bg-green-700 p-2 text-center text-5xl font-bold">
-        Finance
-      </h2>
+      <H2 text="Finance" />
 
       <Image
         className="mx-auto"
