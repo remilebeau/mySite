@@ -5,7 +5,7 @@ import cityData from "../../public/images/cityData.png";
 import ButtonWithLink from "./ButtonWithLink";
 
 export default function ProjectCards() {
-  const projects: ProjectCard[] = [
+  const projects = [
     {
       title: "Monte Carlo Simulation",
       description: "Monte Carlo simulation for production planning",
@@ -34,12 +34,13 @@ export default function ProjectCards() {
     },
   ];
   const renderedProjects = projects.map((project) => (
-    <section key={project.title}>
-      <header className="mb-4 rounded-t-xl bg-green-700 text-center text-3xl">
-       {project.title}
-        <p className="text-md font-bold">
-          {project.description}
-        </p>
+    <section
+      key={project.title}
+      className="flex flex-col gap-4 rounded-xl border border-white"
+    >
+      <header className="mx-auto flex w-full flex-col gap-4 rounded-t-xl bg-green-700 p-4 text-center">
+        <p className="text-3xl">{project.title}</p>
+        <p className="text-2xl">{project.description}</p>
       </header>
       <main className="flex flex-col justify-evenly gap-4 sm:flex-row">
         <ButtonWithLink href={project.live} text="Live Demo" />
