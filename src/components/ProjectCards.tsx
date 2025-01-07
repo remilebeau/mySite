@@ -2,7 +2,6 @@ import Image from "next/image";
 import techNotes from "../../public/images/techNotes.png";
 import simulation from "../../public/images/simulation.png";
 import cityData from "../../public/images/cityData.png";
-import ButtonWithLink from "./ButtonWithLink";
 import {
   Card,
   CardContent,
@@ -11,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export default function ProjectCards() {
   const projects = [
@@ -50,10 +50,16 @@ export default function ProjectCards() {
         <CardTitle>{project.title}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex flex-col gap-2 sm:flex-row">
-        <ButtonWithLink href={project.live} text="Live Demo" />
-        <ButtonWithLink href={project.sourceCode} text="Source Code" />
-        <ButtonWithLink href={project.apiURL} text="API Docs" />
+      <CardContent className="flex flex-col justify-evenly gap-2 sm:flex-row">
+        <Button asChild>
+          <a href={project.live}>Live Demo</a>
+        </Button>
+        <Button asChild>
+          <a href={project.sourceCode}>Source Code</a>
+        </Button>
+        <Button asChild>
+          <a href={project.apiURL}>API Docs</a>
+        </Button>
       </CardContent>
       <CardFooter>
         <Image className="rounded-xl" src={project.image} alt={project.title} />

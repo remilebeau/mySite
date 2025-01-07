@@ -1,4 +1,4 @@
-import ButtonWithLink from "./ButtonWithLink";
+import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   return (
@@ -15,16 +15,16 @@ export default function Contact() {
           finance.
         </p>
       </section>
-      <section className=" flex flex-col gap-8">
-        <ButtonWithLink
-          href="mailto:remilebeau90@gmail.com"
-          text="Send Me an Email"
-        />
-        <ButtonWithLink href="/wes-s-resume.pdf" text="Download My Resume" />
-        <ButtonWithLink
-          href="https://github.com/remilebeau"
-          text="Visit My GitHub"
-        />
+      <section className="flex w-full flex-col gap-8">
+        <Button asChild>
+          <a href="mailto:remilebeau90@gmail.com">Send Me an Email</a>
+        </Button>
+        <Button asChild>
+          <a href="/wes-s-resume.pdf">Download My Resume</a>
+        </Button>
+        <Button asChild>
+          <a href="https://github.com/remilebeau">Visit My GitHub</a>
+        </Button>
       </section>
     </article>
   );
