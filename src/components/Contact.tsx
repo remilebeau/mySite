@@ -1,5 +1,5 @@
 import H2 from "@/components/H2";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 
 export default function Contact() {
   return (
@@ -15,14 +15,35 @@ export default function Contact() {
         </p>
       </section>
       <section className="flex w-full flex-col gap-8">
-        <Button asChild>
-          <a href="mailto:remilebeau90@gmail.com">Send Me an Email</a>
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a className="sm:text-xl" href="mailto:remilebeau90@gmail.com">
+            Send Me an Email
+          </a>
         </Button>
-        <Button asChild>
-          <a href="/wes-s-resume.pdf">Download My Resume</a>
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a className="sm:text-xl" href="/wes-s-resume.pdf">
+            Download My Resume
+          </a>
         </Button>
-        <Button asChild>
-          <a href="https://github.com/remilebeau">Visit My GitHub</a>
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a className="sm:text-xl" href="https://github.com/remilebeau">
+            Visit My GitHub
+          </a>
         </Button>
       </section>
     </article>

@@ -8,13 +8,13 @@ export default function HomePage() {
   return (
     <main className="mx-auto mt-6 flex max-w-4xl flex-col gap-4 p-4 text-center font-bold">
       <Hero />
-      <Separator />
+      <Separator className="my-4" />
 
       <Finance />
-      <Separator />
+      <Separator className="my-4" />
 
       <Projects />
-      <Separator />
+      <Separator className="my-4" />
 
       <Contact />
     </main>
