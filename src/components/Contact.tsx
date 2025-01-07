@@ -1,5 +1,5 @@
 import H2 from "@/components/H2";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   return (
