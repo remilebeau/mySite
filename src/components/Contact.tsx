@@ -41,7 +41,11 @@ export default function Contact() {
           variant={"secondary"}
           asChild
         >
-          <a className="sm:text-xl" href="https://github.com/remilebeau">
+          <a
+            className="sm:text-xl"
+            href="https://github.com/remilebeau"
+            target="_blank"
+          >
             Visit My GitHub
           </a>
         </Button>
