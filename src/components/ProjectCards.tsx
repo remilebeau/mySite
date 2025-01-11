@@ -42,49 +42,49 @@ export default function ProjectCards() {
     },
   ];
   const renderedProjects = projects.map((project) => (
-    <>
-      <Card key={project.title}>
-        <CardHeader className="bg-secondary mb-4 rounded-t-xl">
-          <CardTitle className="text-3xl">{project.title}</CardTitle>
-          <CardDescription className="text-xl">
-            {project.description}
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="flex flex-col justify-evenly gap-2 sm:flex-row">
-          <Button
-            className="rounded-xl"
-            size={"lg"}
-            variant={"secondary"}
-            asChild
-          >
-            <a href={project.live}>Live Demo</a>
-          </Button>
-          <Button
-            className="rounded-xl"
-            size={"lg"}
-            variant={"secondary"}
-            asChild
-          >
-            <a href={project.sourceCode}>Source Code</a>
-          </Button>
-          <Button
-            className="rounded-xl"
-            size={"lg"}
-            variant={"secondary"}
-            asChild
-          >
-            <a href={project.apiURL}>API Docs</a>
-          </Button>
-        </CardContent>
-        <CardFooter>
-          <Image
-            className="rounded-xl"
-            src={project.image}
-            alt={project.title}
-          />
-        </CardFooter>
-      </Card>
-    </>
+    <Card key={project.title}>
+      <CardHeader className="mb-4 rounded-t-xl bg-secondary">
+        <CardTitle className="text-3xl">{project.title}</CardTitle>
+        <CardDescription className="text-xl">
+          {project.description}
+        </CardDescription>
+      </CardHeader>
+      <CardContent className="flex flex-col justify-evenly gap-2 sm:flex-row">
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a href={project.live} target="_blank">
+            Live Demo
+          </a>
+        </Button>
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a href={project.sourceCode} target="_blank">
+            Source Code
+          </a>
+        </Button>
+        <Button
+          className="rounded-xl"
+          size={"lg"}
+          variant={"secondary"}
+          asChild
+        >
+          <a href={project.apiURL} target="_blank">
+            API Docs
+          </a>
+        </Button>
+      </CardContent>
+      <CardFooter>
+        <Image className="rounded-xl" src={project.image} alt={project.title} />
+      </CardFooter>
+    </Card>
   ));
   return <article className="flex flex-col gap-16">{renderedProjects}</article>;
 }
