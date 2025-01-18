@@ -1,4 +1,4 @@
-import oh from "../../public/images/oh.svg";
+import oh from "/public/images/oh.svg";
 import Image from "next/image";
 
 export default function Hero() {

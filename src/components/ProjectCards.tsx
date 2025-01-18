@@ -1,7 +1,7 @@
 import Image from "next/image";
-import techNotes from "../../public/images/techNotes.png";
-import simulation from "../../public/images/simulation.png";
-import cityData from "../../public/images/cityData.png";
+import techNotes from "/public/images/techNotes.png";
+import simulation from "/public/images/simulation.png";
+import cityData from "/public/images/cityData.png";
 import {
   Card,
   CardContent,

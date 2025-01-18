@@ -1,5 +1,5 @@
 import Image from "next/image";
-import osu from "../../public/images/osu.svg";
+import osu from "/public/images/osu.svg";
 import H2 from "@/components/H2";
 
 export default function Finance() {
