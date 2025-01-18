@@ -8,13 +8,13 @@ export default function Contact() {
       className="flex min-h-screen scroll-mt-32 flex-col gap-4"
     >
       <H2 text="Contact" />
-      <section className="mb-4 flex flex-col gap-4">
+      <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
-          I am open to discussing job opportunities in web development or
-          finance.
+          I am open to discussing job opportunities in software development, IT,
+          or finance.
         </p>
-      </section>
-      <section className="flex w-full flex-col gap-8">
+      </div>
+      <div className="flex w-full flex-col gap-8">
         <Button
           className="rounded-xl"
           size={"lg"}
@@ -49,7 +49,7 @@ export default function Contact() {
             Visit My GitHub
           </a>
         </Button>
-      </section>
+      </div>
     </article>
   );
 }
