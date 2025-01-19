@@ -1,4 +1,3 @@
-import H2 from "@/components/H2";
 import { Button } from "@/components/ui/button";
 
 export default function Contact() {
@@ -7,7 +6,6 @@ export default function Contact() {
       id="contact"
       className="flex min-h-screen scroll-mt-32 flex-col gap-4"
     >
-      <H2 text="Contact" />
       <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
           I am open to discussing job opportunities in software development, IT,

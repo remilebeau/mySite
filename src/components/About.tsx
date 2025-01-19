@@ -1,11 +1,9 @@
 import Image from "next/image";
 import osu from "/public/images/osu.svg";
-import H2 from "@/components/H2";
 
 export default function About() {
   return (
     <article id="about" className="flex scroll-mt-32 flex-col gap-4">
-      <H2 text="About" />
       <div className="flex flex-col gap-4">
         <Image
           className="mx-auto"
