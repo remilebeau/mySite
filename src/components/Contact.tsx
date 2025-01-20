@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <article
       id="contact"
-      className="flex min-h-screen scroll-mt-48 flex-col gap-4"
+      className="flex min-h-screen scroll-mt-52 flex-col gap-4 sm:scroll-mt-48"
     >
       <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
