@@ -8,8 +8,8 @@ export default function Contact() {
     >
       <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
-          I am open to discussing job opportunities in software development, IT,
-          or finance.
+          I am open to discussing projects or opportunities in web development,
+          IT, or finance.
         </p>
       </div>
       <div className="flex w-full flex-col gap-8">
