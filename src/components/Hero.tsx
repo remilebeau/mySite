@@ -12,6 +12,7 @@ export default function Hero() {
       </p>
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
+      <hr className="mx-auto my-4 w-4/5" />
     </article>
   );
 }

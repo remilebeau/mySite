@@ -4,8 +4,11 @@ export default function Contact() {
   return (
     <article
       id="contact"
-      className="flex min-h-screen scroll-mt-52 flex-col gap-4 sm:scroll-mt-48"
+      className="flex min-h-screen scroll-mt-24 flex-col gap-4"
     >
+      <h2 className="mb-8 rounded-3xl bg-secondary p-2 text-center text-5xl font-bold">
+        Contact
+      </h2>
       <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
           I am open to discussing projects or opportunities in web development,
@@ -48,6 +51,7 @@ export default function Contact() {
           </a>
         </Button>
       </div>
+      <hr className="mx-auto my-4 w-4/5" />
     </article>
   );
 }
