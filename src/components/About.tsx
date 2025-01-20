@@ -16,7 +16,7 @@ export default function About() {
       {/* web development section */}
       <section className="flex flex-col gap-4">
         <h3 className="mb-4 text-4xl font-bold">Web Development</h3>
-        <ul className="flex flex-col items-center gap-8">
+        <ul className="mx-auto flex flex-col items-center gap-8 sm:grid sm:grid-cols-3">
           <li>
             <Image src={react} alt="React" width={200} height={200} />
           </li>
@@ -79,7 +79,7 @@ export default function About() {
       {/* data science section */}
       <section className="flex flex-col gap-4">
         <h3 className="mb-4 text-4xl font-bold">Data Science</h3>
-        <ul className="flex flex-col items-center gap-8">
+        <ul className="flex flex-col items-center justify-evenly gap-8 sm:flex-row">
           <li>
             <Image src={python} alt="Python" width={200} height={200} />
           </li>
