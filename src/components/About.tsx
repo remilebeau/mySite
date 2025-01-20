@@ -1,5 +1,11 @@
 import Image from "next/image";
 import osu from "/public/images/osu.svg";
+import react from "/public/images/react.svg";
+import nextjs from "/public/images/nextjs.svg";
+import nodejs from "/public/images/nodejs.svg";
+import python from "/public/images/python.svg";
+import bash from "/public/images/bash.svg";
+import excel from "/public/images/excel.svg";
 
 export default function About() {
   return (
@@ -7,6 +13,35 @@ export default function About() {
       <h2 className="rounded-3xl bg-secondary p-2 text-center text-5xl font-bold">
         About
       </h2>
+      {/* web development section */}
+      <section className="flex flex-col gap-4">
+        <h3 className="mb-4 text-4xl font-bold">Web Development</h3>
+        <ul className="flex flex-col items-center gap-8">
+          <li>
+            <Image src={react} alt="React" width={200} height={200} />
+          </li>
+          <li>
+            <Image
+              className="invert"
+              src={nextjs}
+              alt="Next.js"
+              width={200}
+              height={200}
+            />
+          </li>
+          <li>
+            <Image src={nodejs} alt="Node.js" width={200} height={200} />
+          </li>
+          <li>
+            <Image src={python} alt="Python" width={200} height={200} />
+          </li>
+          <li>
+            <Image src={bash} alt="Bash" width={200} height={200} />
+          </li>
+        </ul>
+      </section>
+      <hr className="mx-auto my-4 w-1/2" />
+      {/* finance section */}
       <section className="flex flex-col gap-4">
         <h3 className="mb-4 text-4xl font-bold">Finance</h3>
         <Image
@@ -17,9 +52,8 @@ export default function About() {
           height={200}
         />
         <div className="flex flex-col text-xl">
-          <p className="text-red-600 sm:text-2xl">
-            Bachelor of Science in Business Administration
-          </p>
+          <p className="text-red-600 sm:text-2xl">Bachelor of Science</p>
+          <p className="text-red-600 sm:text-2xl"> Business Administration</p>
           <p className="text-red-600 sm:text-2xl">Finance Specialization</p>
           <p className="text-red-600 sm:text-2xl">Summa Cum Laude</p>
           <p className="text-red-600 sm:text-2xl">The Ohio State University</p>
@@ -41,16 +75,17 @@ export default function About() {
           </ul>
         </div>
       </section>
-      <section>
-        <h3 className="mb-4 text-4xl font-bold">Web Development</h3>
-        <ul>
-          <li>list images</li>
-        </ul>
-      </section>
-      <section>
+      <hr className="mx-auto my-4 w-1/2" />
+      {/* data science section */}
+      <section className="flex flex-col gap-4">
         <h3 className="mb-4 text-4xl font-bold">Data Science</h3>
-        <ul>
-          <li>list images</li>
+        <ul className="flex flex-col items-center gap-8">
+          <li>
+            <Image src={python} alt="Python" width={200} height={200} />
+          </li>
+          <li>
+            <Image src={excel} alt="Excel" width={200} height={200} />
+          </li>
         </ul>
       </section>
       <hr className="mx-auto my-4 w-4/5" />
