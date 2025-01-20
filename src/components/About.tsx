@@ -3,7 +3,7 @@ import osu from "/public/images/osu.svg";
 
 export default function About() {
   return (
-    <article id="about" className="flex scroll-mt-32 flex-col gap-4">
+    <article id="about" className="flex scroll-mt-48 flex-col gap-4">
       <Image
         className="mx-auto"
         src={osu}
