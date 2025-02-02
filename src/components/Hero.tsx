@@ -7,9 +7,27 @@ export default function Hero() {
       <h1 className="text-center text-4xl font-bold">
         Hello and welcome. I&apos;m Wes.
       </h1>
+
       <p className="text-xl">
-        A full-stack web developer experienced in finance and data science.
+        A full stack web developer and business professional.
       </p>
+
+      <hr className="mx-auto my-4 w-1/2" />
+      <p className="text-xl">Experienced in:</p>
+
+      <p className="text-xl">
+        HTML, CSS, JavaScript, <br className="sm:hidden" />
+        TypeScript, Python, Linux
+      </p>
+
+      <p className="text-xl">
+        Business Administration, Management, and Strategy
+      </p>
+
+      <p className="text-xl">
+        Marketing, Operations, Finance, Management Science
+      </p>
+
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
       <hr className="mx-auto my-4 w-4/5" />
