@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
           I am open to discussing projects or opportunities in web development,
-          IT, or finance.
+          finance, marketing, operations, or management science.
         </p>
       </div>
       <div className="flex w-full flex-col gap-8">
