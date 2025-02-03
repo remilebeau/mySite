@@ -8,15 +8,15 @@ export default function About() {
       </h2>
       <OhioState />
       <hr className="mx-auto my-4 w-1/2" />
-      <p>
+      <p className="text-xl">
         Nine years in marketing and operations management for small businesses
         in financial planning and healthcare.
       </p>
-      <p>
+      <p className="text-xl">
         Two years in full stack web development. Self-taught and always seeking
         to learn more.
       </p>
-      <p>
+      <p className="text-xl">
         One year independent study of management science. Includes material
         developed by MIT and the University of Miami.
       </p>
