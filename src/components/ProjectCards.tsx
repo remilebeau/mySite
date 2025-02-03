@@ -51,7 +51,7 @@ export default function ProjectCards() {
       </CardHeader>
       <CardContent className="flex flex-col justify-evenly gap-2 sm:flex-row">
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
@@ -61,7 +61,7 @@ export default function ProjectCards() {
           </a>
         </Button>
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
@@ -71,7 +71,7 @@ export default function ProjectCards() {
           </a>
         </Button>
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
@@ -82,7 +82,11 @@ export default function ProjectCards() {
         </Button>
       </CardContent>
       <CardFooter>
-        <Image className="rounded-xl" src={project.image} alt={project.title} />
+        <Image
+          className="rounded-xl font-bold"
+          src={project.image}
+          alt={project.title}
+        />
       </CardFooter>
     </Card>
   ));

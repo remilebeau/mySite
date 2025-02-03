@@ -1,6 +1,4 @@
-import WebDevelopment from "@/components/WebDevelopment";
-import Finance from "@/components/Finance";
-import DataScience from "@/components/DataScience";
+import OhioState from "@/components/OhioState";
 
 export default function About() {
   return (
@@ -8,9 +6,20 @@ export default function About() {
       <h2 className="rounded-3xl bg-secondary p-2 text-center text-5xl font-bold">
         About
       </h2>
-      <WebDevelopment />
-      <Finance />
-      <DataScience />
+      <OhioState />
+      <p>
+        9 years experience in marketing and operations management for small
+        businesses in financial planning and healthcare.
+      </p>
+      <p>
+        2 years experience in full stack web development. Self-taught and always
+        seeking to learn more.
+      </p>
+      <p>
+        1 year independent study of management science. Includes material
+        developed by MIT, Microsoft, and University of Miami.
+      </p>
+      <hr className="mx-auto my-4 w-1/2" />
     </article>
   );
 }

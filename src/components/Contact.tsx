@@ -17,7 +17,7 @@ export default function Contact() {
       </div>
       <div className="flex w-full flex-col gap-8">
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
@@ -27,7 +27,7 @@ export default function Contact() {
           </a>
         </Button>
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
@@ -37,7 +37,7 @@ export default function Contact() {
           </a>
         </Button>
         <Button
-          className="rounded-xl"
+          className="rounded-xl font-bold"
           size={"lg"}
           variant={"secondary"}
           asChild
