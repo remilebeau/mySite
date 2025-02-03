@@ -18,22 +18,6 @@ export default function OhioState() {
           <p className="text-red-600 sm:text-2xl">Summa Cum Laude</p>
           <p className="text-red-600 sm:text-2xl">The Ohio State University</p>
         </div>
-        <div className="flex flex-col justify-evenly text-center text-xl font-bold sm:flex-row sm:text-left">
-          <ul className="flex flex-col text-gray-400">
-            <li>Accounting</li>
-            <li>Corporate Finance</li>
-            <li>Entrepeneurial Finance</li>
-            <li>Financial Analysis</li>
-            <li>Management Science</li>
-          </ul>
-          <ul className="flex flex-col text-gray-400">
-            <li>Marketing Management</li>
-            <li>Operations Management</li>
-            <li>Organizational Behavior</li>
-            <li>Risk Management</li>
-            <li>Strategic Management</li>
-          </ul>
-        </div>
       </section>
     </>
   );
