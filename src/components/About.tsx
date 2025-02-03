@@ -7,17 +7,18 @@ export default function About() {
         About
       </h2>
       <OhioState />
+      <hr className="mx-auto my-4 w-1/2" />
       <p>
-        9 years experience in marketing and operations management for small
-        businesses in financial planning and healthcare.
+        Nine years in marketing and operations management for small businesses
+        in financial planning and healthcare.
       </p>
       <p>
-        2 years experience in full stack web development. Self-taught and always
-        seeking to learn more.
+        Two years in full stack web development. Self-taught and always seeking
+        to learn more.
       </p>
       <p>
-        1 year independent study of management science. Includes material
-        developed by MIT, Microsoft, and University of Miami.
+        One year independent study of management science. Includes material
+        developed by MIT and the University of Miami.
       </p>
       <hr className="mx-auto my-4 w-1/2" />
     </article>
