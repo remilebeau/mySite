@@ -15,8 +15,9 @@ import { Button } from "@/components/ui/button";
 export default function ProjectCards() {
   const projects = [
     {
-      title: "Monte Carlo Simulation",
-      description: "Monte Carlo simulation for production planning",
+      title: "Simulation and Optimization",
+      description:
+        "Simulation and optimization models for mock business scenarios",
       image: simulation,
       live: "https://remilebeau-simulation.vercel.app/",
       sourceCode: "https://github.com/remilebeau/simulation",
@@ -34,7 +35,7 @@ export default function ProjectCards() {
     {
       title: "CityData",
       description:
-        "Fetch a subset of stats about most U.S. cities from City-Data.",
+        "Fetch a subset of stats about most U.S. cities from City-Data",
       image: cityData,
       live: "https://remilebeau-citydata.vercel.app/",
       sourceCode: "https://github.com/remilebeau/citydata",
