@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import oh from "/public/images/oh.svg";
 import Image from "next/image";
 
@@ -30,6 +32,11 @@ export default function Hero() {
 
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
+
+      <Button className="mx-auto w-1/3 rounded-xl font-bold" asChild>
+        <Link href="#contact">Contact</Link>
+      </Button>
+
       <hr className="mx-auto my-4 w-4/5" />
     </article>
   );
