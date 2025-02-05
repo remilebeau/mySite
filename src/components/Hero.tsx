@@ -33,7 +33,7 @@ export default function Hero() {
       <Image className="mx-auto" src={oh} alt="Ohio" width={200} height={200} />
       <p className="my-auto text-xl">Located in Columbus, Ohio.</p>
 
-      <Button className="mx-auto w-1/3 rounded-xl font-bold" asChild>
+      <Button className="mx-auto w-4/5 rounded-xl font-bold sm:w-1/3" asChild>
         <Link href="#contact">Contact</Link>
       </Button>
 
