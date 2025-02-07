@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Terminal, BriefcaseBusiness, ChartLine } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
-import osu from "/public/images/osu.svg";
 
 export default function HomePage() {
   return (
@@ -23,7 +21,11 @@ export default function HomePage() {
           <p className="text-3xl">Data Analyst</p>
         </div>
         <div className="flex flex-col items-center gap-1">
-          <Image src={osu} alt="OSU" width={200} height={200} />
+          <img
+            className="h-[200px] w-[200px]"
+            src="/images/osu.svg"
+            alt="OSU"
+          />
           <p className="text-3xl">Buckeye</p>
         </div>
       </section>
