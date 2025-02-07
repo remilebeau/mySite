@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <article
       id="contact"
