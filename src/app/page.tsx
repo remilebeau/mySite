@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <article className="mx-auto my-8 flex max-w-5xl flex-col gap-4">
+    <main className="mx-auto my-8 flex max-w-5xl flex-col gap-4">
       <h1 className="text-center text-5xl">Wes S</h1>
 
       <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
@@ -21,11 +21,7 @@ export default function HomePage() {
           <p className="text-3xl">Data Analyst</p>
         </div>
         <div className="flex flex-col items-center gap-1">
-          <img
-            className="h-[200px] w-[200px]"
-            src="/images/osu.svg"
-            alt="OSU"
-          />
+          <img src="/images/osu.svg" alt="OSU" height={200} width={200} />
           <p className="text-3xl">Buckeye</p>
         </div>
       </section>
@@ -37,6 +33,6 @@ export default function HomePage() {
           <p className="text-3xl">Contact</p>
         </Link>
       </Button>
-    </article>
+    </main>
   );
 }
