@@ -13,7 +13,7 @@ export default function DesktopNavbar({ links }: Props) {
     </button>
   ));
   return (
-    <nav className="mx-auto flex max-w-4xl flex-row justify-evenly p-4 text-3xl">
+    <nav className="mx-auto flex max-w-full flex-row justify-evenly p-4 text-3xl">
       {renderedLinks}
     </nav>
   );
