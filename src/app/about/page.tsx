@@ -18,16 +18,16 @@ export default function AboutPage() {
       </section>
       <article className="flex flex-col gap-4 text-center">
         <p className="text-xl sm:text-2xl">
-          Nine years in marketing and operations management for small businesses
-          in financial planning and healthcare.
-        </p>
-        <p className="text-xl sm:text-2xl">
-          Two years in full stack web development. Self-taught and always
-          seeking to learn more.
+          Two years in full stack web development. Accepting new clients for
+          static or dynamic websites.
         </p>
         <p className="text-xl sm:text-2xl">
           One year independent study of management science. Includes material
           developed by MIT and the University of Miami.
+        </p>
+        <p className="text-xl sm:text-2xl">
+          Nine years in marketing and operations management for small businesses
+          in financial planning and healthcare.
         </p>
       </article>
     </main>
