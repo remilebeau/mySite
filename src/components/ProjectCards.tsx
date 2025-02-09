@@ -1,7 +1,3 @@
-import Image from "next/image";
-import techNotes from "/public/images/techNotes.png";
-import simulation from "/public/images/simulation.png";
-import cityData from "/public/images/cityData.png";
 import {
   Card,
   CardContent,
@@ -12,82 +8,57 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
+type Project = {
+  title: string;
+  description: string;
+  image: string;
+  live: string;
+};
 export default function ProjectCards() {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "Simulation and Optimization",
       description:
         "Simulation and optimization models for mock business scenarios",
-      image: simulation,
+      image: "/images/simulation.png",
       live: "https://remilebeau-simulation.vercel.app/",
-      sourceCode: "https://github.com/remilebeau/simulation",
-      apiURL: "https://simulation-api-rsaw.onrender.com/docs",
     },
     {
       title: "TechNotes",
       description:
         "Ticketing system. Test username: 'testuser'. Test password: 'testpassword'",
-      image: techNotes,
+      image: "/images/techNotes.png",
       live: "https://technotes-op6s.onrender.com",
-      sourceCode: "https://github.com/remilebeau/techNotes",
-      apiURL: "https://github.com/remilebeau/techNotes-api",
     },
     {
       title: "CityData",
       description:
         "Fetch a subset of stats about most U.S. cities from City-Data",
-      image: cityData,
+      image: "/images/cityData.png",
       live: "https://remilebeau-citydata.vercel.app/",
-      sourceCode: "https://github.com/remilebeau/citydata",
-      apiURL: "https://citydata-api.onrender.com/docs",
     },
   ];
   const renderedProjects = projects.map((project) => (
-    <Card key={project.title}>
-      <CardHeader className="mb-4 rounded-t-xl bg-secondary">
+    <Card className="text-center" key={project.title}>
+      <CardHeader className="mb-4 rounded-t-xl">
         <CardTitle className="text-3xl">{project.title}</CardTitle>
         <CardDescription className="text-xl">
           {project.description}
         </CardDescription>
       </CardHeader>
-      <CardContent className="flex flex-col justify-evenly gap-2 sm:flex-row">
-        <Button
-          className="rounded-xl font-bold"
-          size={"lg"}
-          variant={"secondary"}
-          asChild
-        >
-          <a href={project.live} target="_blank">
-            Live Demo
-          </a>
-        </Button>
-        <Button
-          className="rounded-xl font-bold"
-          size={"lg"}
-          variant={"secondary"}
-          asChild
-        >
-          <a href={project.sourceCode} target="_blank">
-            Source Code
-          </a>
-        </Button>
-        <Button
-          className="rounded-xl font-bold"
-          size={"lg"}
-          variant={"secondary"}
-          asChild
-        >
-          <a href={project.apiURL} target="_blank">
-            API Docs
-          </a>
-        </Button>
-      </CardContent>
-      <CardFooter>
-        <Image
+      <CardContent>
+        <img
           className="rounded-xl font-bold"
           src={project.image}
           alt={project.title}
         />
+      </CardContent>
+      <CardFooter>
+        <Button className="mx-auto rounded-xl font-bold" asChild>
+          <a href={project.live} target="_blank">
+            <p className="text-xl">Live Demo</p>
+          </a>
+        </Button>
       </CardFooter>
     </Card>
   ));
