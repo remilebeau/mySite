@@ -54,7 +54,7 @@ export default function ProjectCards() {
         />
       </CardContent>
       <CardFooter>
-        <Button className="mx-auto rounded-xl font-bold" asChild>
+        <Button className="mx-auto w-full rounded-xl font-bold" asChild>
           <a href={project.live} target="_blank">
             <p className="text-xl">Live Demo</p>
           </a>
