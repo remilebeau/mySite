@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="mx-auto flex max-w-4xl flex-col items-center gap-8 p-8 text-center">
-      <h1 className="text-5xl">Wes S</h1>
-      <section className="flex flex-col gap-8 sm:grid sm:grid-cols-2">
+    <main className="mx-auto flex max-w-4xl flex-col gap-8 p-8">
+      <h1 className="text-center text-5xl">Wes S</h1>
+      <section className="flex flex-col gap-8 text-center sm:grid sm:grid-cols-2">
         <div className="flex flex-col items-center gap-1">
           <Terminal className="opacity-50" width={200} height={200} />
           <p className="text-3xl">Web Developer</p>
@@ -17,9 +17,9 @@ export default function HomePage() {
         </div>
         <div className="flex flex-col items-center gap-1">
           <ChartLine className="opacity-50" width={200} height={200} />
-          <p className="text-3xl">Data Analyst</p>
+          <p className="text-3xl">Financial Analyst</p>
         </div>
-        <div className="flex flex-col items-center gap-1">
+        <div className="flex flex-col items-center gap-1 sm:justify-evenly">
           <img src="/images/osu.svg" alt="OSU" height={200} width={200} />
           <p className="text-3xl">Buckeye</p>
         </div>
