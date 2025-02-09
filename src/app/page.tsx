@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex max-w-4xl flex-col gap-8 p-8">
+    <main className="mx-auto flex max-w-4xl flex-col gap-8 p-8">
       <h1 className="text-center text-5xl">Wes S</h1>
 
       <section className="flex flex-col gap-8 text-center sm:grid sm:grid-cols-2">
