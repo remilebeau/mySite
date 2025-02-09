@@ -4,9 +4,8 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="mx-auto flex max-w-4xl flex-col gap-8 p-8">
+    <main className="mx-auto flex max-w-4xl flex-col items-center gap-8 p-8 text-center">
       <h1 className="text-center text-5xl">Wes S</h1>
-
       <section className="flex flex-col gap-8 text-center sm:grid sm:grid-cols-2">
         <div className="flex flex-col items-center gap-1">
           <Terminal className="opacity-50" width={200} height={200} />

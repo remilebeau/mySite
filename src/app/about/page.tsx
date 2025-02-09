@@ -2,7 +2,7 @@ import OhioState from "@/components/OhioState";
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto flex max-w-4xl flex-col gap-8 p-8">
+    <main className="mx-auto flex max-w-4xl flex-col items-center gap-8 p-8 text-center">
       <h1 className="text-center text-5xl">About</h1>
       <OhioState />
       <article className="flex flex-col gap-8 text-center sm:text-left">
