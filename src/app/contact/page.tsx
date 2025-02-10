@@ -1,8 +1,15 @@
-import { Button } from "@/components/ui/button";
+"use client";
+import { useState } from "react";
+import { Mail, FileUser } from "lucide-react";
 
 export default function ContactPage() {
+  const [showEmail, setShowEmail] = useState(false);
+  function handleClick() {
+    if (showEmail) return;
+    setShowEmail(!showEmail);
+  }
   return (
-    <main className="mx-auto flex max-w-4xl flex-col items-center gap-8 p-8 text-center">
+    <main className="mx-auto flex max-w-4xl flex-col gap-8 p-8 text-center">
       <h1 className="text-5xl">Contact</h1>
       <article className="mb-4 flex flex-col gap-4">
         <p className="text-2xl">
@@ -10,19 +17,23 @@ export default function ContactPage() {
           finance, marketing, operations, or management science.
         </p>
       </article>
-      <article className="flex flex-col gap-8 sm:grid sm:grid-cols-3">
-        <Button className="rounded-xl p-8 text-xl font-bold" asChild>
-          <a href="mailto:remilebeau90@gmail.com">Send Me an Email</a>
-        </Button>
-        <Button className="rounded-xl p-8 text-xl font-bold" asChild>
-          <a href="/wes-s-resume.pdf">Download My Resume</a>
-        </Button>
-        <Button className="rounded-xl p-8 text-xl font-bold" asChild>
-          <a href="https://github.com/remilebeau" target="_blank">
-            Visit My GitHub
-          </a>
-        </Button>
+      <article className="flex flex-col items-center justify-evenly gap-8 sm:flex-row">
+        <p title="Send Me an Email" className="hover: cursor-pointer">
+          <Mail
+            onClick={handleClick}
+            className="h-24 w-24 rounded-full bg-primary p-4"
+          />
+        </p>
+
+        <a
+          className="hover:cursor-pointer"
+          title="Download My Resume"
+          href="/wes-s-resume.pdf"
+        >
+          <FileUser className="h-24 w-24 rounded-full bg-primary p-4" />
+        </a>
       </article>
+      {showEmail && <p>{process.env.NEXT_PUBLIC_CONTACT_EMAIL}</p>}
     </main>
   );
 }
