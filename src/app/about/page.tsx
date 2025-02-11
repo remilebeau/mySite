@@ -22,12 +22,12 @@ export default function AboutPage() {
           static or dynamic websites.
         </p>
         <p className="text-xl sm:text-2xl">
-          One year independent study of management science. Includes material
-          developed by MIT and the University of Miami.
+          One year independent study of data science. Includes courses developed
+          by MIT and the University of Miami.
         </p>
         <p className="text-xl sm:text-2xl">
-          Nine years in marketing and operations management for small businesses
-          in financial planning and healthcare.
+          Nine years directing marketing and operations for small businesses in
+          financial planning and healthcare.
         </p>
       </article>
     </main>
