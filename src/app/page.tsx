@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Terminal, BriefcaseBusiness, ChartLine } from "lucide-react";
+import { Terminal, BriefcaseBusiness, Database } from "lucide-react";
 import Link from "next/link";
 
 export default function HomePage() {
@@ -12,13 +12,14 @@ export default function HomePage() {
           <p className="text-3xl">Web Developer</p>
         </div>
         <div className="flex flex-col items-center gap-1">
+          <Database className="opacity-50" width={200} height={200} />
+          <p className="text-3xl">Data Scientist</p>
+        </div>
+        <div className="flex flex-col items-center gap-1">
           <BriefcaseBusiness className="opacity-50" width={200} height={200} />
           <p className="text-3xl">Business Professional</p>
         </div>
-        <div className="flex flex-col items-center gap-1">
-          <ChartLine className="opacity-50" width={200} height={200} />
-          <p className="text-3xl">Financial Analyst</p>
-        </div>
+
         <div className="flex flex-col items-center gap-1 sm:justify-evenly">
           <img src="/images/osu.svg" alt="OSU" height={200} width={200} />
           <p className="text-3xl">Buckeye</p>
