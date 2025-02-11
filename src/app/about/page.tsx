@@ -18,8 +18,7 @@ export default function AboutPage() {
       </section>
       <article className="flex flex-col gap-4 text-center">
         <p className="text-xl sm:text-2xl">
-          Two years in full stack web development. Accepting new clients for
-          static or dynamic websites.
+          Two years in full stack web development. Accepting new clients.
         </p>
         <p className="text-xl sm:text-2xl">
           One year independent study of data science. Includes courses developed
