@@ -13,11 +13,11 @@ export default function DesktopNavbar({ links }: Props) {
   const renderedLinks = links.map((link) => (
     <Button
       key={link.name}
-      className={`rounded-xl ${link.href === pathname ? "bg-primary" : "bg-secondary"} text-2xl font-bold`}
+      className={`rounded-xl p-8 ${link.href === pathname ? "bg-primary" : "bg-secondary"} text-2xl font-bold`}
     >
-      <Link key={link.name} href={link.href}>
-        {link.name}
-      </Link>
+      <p className="text-4xl">
+        <Link href={link.href}>{link.name}</Link>
+      </p>
     </Button>
   ));
 
