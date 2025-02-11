@@ -16,7 +16,7 @@ export default function Footer() {
           />
         </p>
         <p
-          className={`${showEmail ? "opacity-100" : "opacity-0"} my-auto rounded-xl bg-secondary p-4 duration-500 ease-in-out`}
+          className={`${showEmail ? "opacity-100" : "opacity-0"} my-auto rounded-xl bg-secondary p-4 text-2xl duration-500 ease-in-out`}
         >
           {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
         </p>
