@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function DesktopNavbar({ links }: Props) {
-  // style the current path differently
+  // conditional styling for current path
   const pathname = usePathname();
   const renderedLinks = links.map((link) => (
     <Button

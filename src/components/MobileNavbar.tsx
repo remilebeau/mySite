@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { Button } from "./ui/button";
 
 type Props = { links: { name: string; href: string }[] };
 
@@ -18,14 +20,15 @@ export default function MobileNavbar({ links }: Props) {
     window.scrollTo(0, 0);
   };
 
+  // conditional styling for current path
+  const pathname = usePathname();
   const renderedLinks = links.map((link) => (
-    <Link
-      key={link.name}
-      href={link.href}
-      onClick={onHamburgerMenuLinkClicked}
-      className="hover:opacity-80"
-    >
-      <p>{link.name}</p>
+    <Link key={link.name} href={link.href} onClick={onHamburgerMenuLinkClicked}>
+      <Button
+        className={`rounded-xl p-8 text-5xl font-bold ${link.href === pathname ? "bg-primary" : "bg-secondary"}`}
+      >
+        <p className="p-4">{link.name}</p>
+      </Button>
     </Link>
   ));
   return (
