@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { Terminal, BriefcaseBusiness, Database } from "lucide-react";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -22,6 +24,11 @@ export default function HomePage() {
           <p className="text-3xl">Buckeye</p>
         </li>
       </ul>
+      <Button className="rounded-xl" asChild>
+        <Link href="/contact">
+          <p className="text-2xl font-bold">Contact</p>
+        </Link>
+      </Button>
     </main>
   );
 }
